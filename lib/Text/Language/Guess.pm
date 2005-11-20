@@ -18,7 +18,7 @@ use File::Spec;
 use File::Basename;
 
 %STOPMAPS = ();
-$VERSION  = "0.01";
+$VERSION  = "0.02";
 
 ###########################################
 sub new {
@@ -200,6 +200,8 @@ and returns the abbreviation of the language that it is most likely
 written in.
 
 Supported Languages:
+
+=over 4
 
 =item *
 
